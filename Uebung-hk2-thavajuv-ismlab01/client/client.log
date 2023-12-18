@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-14T08:07:22.552103500Z</date>
+  <millis>1671005242552</millis>
+  <nanos>103500</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>1</thread>
+  <message>Starting Client Application</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:56.420891400Z</date>
+  <millis>1671005276420</millis>
+  <nanos>891400</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>26</thread>
+  <message>Starting Connection Handler for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:56.422433600Z</date>
+  <millis>1671005276422</millis>
+  <nanos>433600</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>26</thread>
+  <message>Start receiving data...</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:56.517657Z</date>
+  <millis>1671005276517</millis>
+  <nanos>657000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>26</thread>
+  <message>CONFIRM: Registration successful for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:58.923165900Z</date>
+  <millis>1671005278923</millis>
+  <nanos>165900</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>26</thread>
+  <message>CONFIRM: Confirm disconnect of hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:58.924238100Z</date>
+  <millis>1671005278924</millis>
+  <nanos>238100</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>26</thread>
+  <message>Closing Connection Handler for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:58.924238100Z</date>
+  <millis>1671005278924</millis>
+  <nanos>238100</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>26</thread>
+  <message>Stop receiving data...</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:58.925894Z</date>
+  <millis>1671005278925</millis>
+  <nanos>894000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>26</thread>
+  <message>Stopped receiving data.</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:58.926394100Z</date>
+  <millis>1671005278926</millis>
+  <nanos>394100</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>26</thread>
+  <message>Closed Connection Handler for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:58.926394100Z</date>
+  <millis>1671005278926</millis>
+  <nanos>394100</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>26</thread>
+  <message>Stopped recieving data</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:58.927271200Z</date>
+  <millis>1671005278927</millis>
+  <nanos>271200</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>26</thread>
+  <message>Stopping Connection Handler for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:59.362164800Z</date>
+  <millis>1671005279362</millis>
+  <nanos>164800</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>28</thread>
+  <message>Starting Connection Handler for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:59.363978800Z</date>
+  <millis>1671005279363</millis>
+  <nanos>978800</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>28</thread>
+  <message>Start receiving data...</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:59.372028200Z</date>
+  <millis>1671005279372</millis>
+  <nanos>28200</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>28</thread>
+  <message>CONFIRM: Registration successful for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:59.883988900Z</date>
+  <millis>1671005279883</millis>
+  <nanos>988900</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>28</thread>
+  <message>CONFIRM: Confirm disconnect of hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:59.885052200Z</date>
+  <millis>1671005279885</millis>
+  <nanos>52200</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>28</thread>
+  <message>Closing Connection Handler for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:59.886233100Z</date>
+  <millis>1671005279886</millis>
+  <nanos>233100</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>28</thread>
+  <message>Stop receiving data...</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:59.886233100Z</date>
+  <millis>1671005279886</millis>
+  <nanos>233100</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>28</thread>
+  <message>Stopped receiving data.</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:59.887100900Z</date>
+  <millis>1671005279887</millis>
+  <nanos>100900</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>28</thread>
+  <message>Closed Connection Handler for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:59.887660700Z</date>
+  <millis>1671005279887</millis>
+  <nanos>660700</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>28</thread>
+  <message>Stopped recieving data</message>
+</record>
+<record>
+  <date>2022-12-14T08:07:59.888674900Z</date>
+  <millis>1671005279888</millis>
+  <nanos>674900</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>28</thread>
+  <message>Stopping Connection Handler for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:00.331413700Z</date>
+  <millis>1671005280331</millis>
+  <nanos>413700</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>30</thread>
+  <message>Starting Connection Handler for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:00.333002300Z</date>
+  <millis>1671005280333</millis>
+  <nanos>2300</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>30</thread>
+  <message>Start receiving data...</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:00.338111900Z</date>
+  <millis>1671005280338</millis>
+  <nanos>111900</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>30</thread>
+  <message>CONFIRM: Registration successful for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:00.610691200Z</date>
+  <millis>1671005280610</millis>
+  <nanos>691200</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>30</thread>
+  <message>CONFIRM: Confirm disconnect of hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:00.611287900Z</date>
+  <millis>1671005280611</millis>
+  <nanos>287900</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>30</thread>
+  <message>Closing Connection Handler for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:00.611287900Z</date>
+  <millis>1671005280611</millis>
+  <nanos>287900</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>30</thread>
+  <message>Stop receiving data...</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:00.613090700Z</date>
+  <millis>1671005280613</millis>
+  <nanos>90700</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>30</thread>
+  <message>Stopped receiving data.</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:00.613590300Z</date>
+  <millis>1671005280613</millis>
+  <nanos>590300</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>30</thread>
+  <message>Closed Connection Handler for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:00.614099500Z</date>
+  <millis>1671005280614</millis>
+  <nanos>99500</nanos>
+  <sequence>29</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>30</thread>
+  <message>Stopped recieving data</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:00.614599Z</date>
+  <millis>1671005280614</millis>
+  <nanos>599000</nanos>
+  <sequence>30</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>30</thread>
+  <message>Stopping Connection Handler for hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:39.241777900Z</date>
+  <millis>1671005319241</millis>
+  <nanos>777900</nanos>
+  <sequence>31</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>32</thread>
+  <message>Starting Connection Handler for Stefan</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:39.242772800Z</date>
+  <millis>1671005319242</millis>
+  <nanos>772800</nanos>
+  <sequence>32</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>32</thread>
+  <message>Start receiving data...</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:39.247155400Z</date>
+  <millis>1671005319247</millis>
+  <nanos>155400</nanos>
+  <sequence>33</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>32</thread>
+  <message>CONFIRM: Registration successful for Stefan</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:43.164787400Z</date>
+  <millis>1671005323164</millis>
+  <nanos>787400</nanos>
+  <sequence>34</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>32</thread>
+  <message>MESSAGE: From Juvan to *: Hallo</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:45.065473500Z</date>
+  <millis>1671005325065</millis>
+  <nanos>473500</nanos>
+  <sequence>35</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>32</thread>
+  <message>CONFIRM: Confirm disconnect of Stefan</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:45.066383500Z</date>
+  <millis>1671005325066</millis>
+  <nanos>383500</nanos>
+  <sequence>36</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>32</thread>
+  <message>Closing Connection Handler for Stefan</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:45.067384Z</date>
+  <millis>1671005325067</millis>
+  <nanos>384000</nanos>
+  <sequence>37</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>32</thread>
+  <message>Stop receiving data...</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:45.067384Z</date>
+  <millis>1671005325067</millis>
+  <nanos>384000</nanos>
+  <sequence>38</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>32</thread>
+  <message>Stopped receiving data.</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:45.068385100Z</date>
+  <millis>1671005325068</millis>
+  <nanos>385100</nanos>
+  <sequence>39</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>32</thread>
+  <message>Closed Connection Handler for Stefan</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:45.068385100Z</date>
+  <millis>1671005325068</millis>
+  <nanos>385100</nanos>
+  <sequence>40</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>32</thread>
+  <message>Stopped recieving data</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:45.069384Z</date>
+  <millis>1671005325069</millis>
+  <nanos>384000</nanos>
+  <sequence>41</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>32</thread>
+  <message>Stopping Connection Handler for Stefan</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:48.257913Z</date>
+  <millis>1671005328257</millis>
+  <nanos>913000</nanos>
+  <sequence>42</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>34</thread>
+  <message>Starting Connection Handler for Stefan</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:48.258917Z</date>
+  <millis>1671005328258</millis>
+  <nanos>917000</nanos>
+  <sequence>43</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>34</thread>
+  <message>Start receiving data...</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:48.263653400Z</date>
+  <millis>1671005328263</millis>
+  <nanos>653400</nanos>
+  <sequence>44</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>34</thread>
+  <message>CONFIRM: Registration successful for Stefan</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:50.446395600Z</date>
+  <millis>1671005330446</millis>
+  <nanos>395600</nanos>
+  <sequence>45</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>34</thread>
+  <message>MESSAGE: From Stefan to *: fedsa</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:52.561612200Z</date>
+  <millis>1671005332561</millis>
+  <nanos>612200</nanos>
+  <sequence>46</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>34</thread>
+  <message>CONFIRM: Confirm disconnect of Stefan</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:52.562611800Z</date>
+  <millis>1671005332562</millis>
+  <nanos>611800</nanos>
+  <sequence>47</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>34</thread>
+  <message>Closing Connection Handler for Stefan</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:52.563612200Z</date>
+  <millis>1671005332563</millis>
+  <nanos>612200</nanos>
+  <sequence>48</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>34</thread>
+  <message>Stop receiving data...</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:52.564612100Z</date>
+  <millis>1671005332564</millis>
+  <nanos>612100</nanos>
+  <sequence>49</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>34</thread>
+  <message>Stopped receiving data.</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:52.564612100Z</date>
+  <millis>1671005332564</millis>
+  <nanos>612100</nanos>
+  <sequence>50</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>34</thread>
+  <message>Closed Connection Handler for Stefan</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:52.565614700Z</date>
+  <millis>1671005332565</millis>
+  <nanos>614700</nanos>
+  <sequence>51</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>34</thread>
+  <message>Stopped recieving data</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:52.565614700Z</date>
+  <millis>1671005332565</millis>
+  <nanos>614700</nanos>
+  <sequence>52</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>34</thread>
+  <message>Stopping Connection Handler for Stefan</message>
+</record>
+<record>
+  <date>2022-12-14T08:08:54.888143600Z</date>
+  <millis>1671005334888</millis>
+  <nanos>143600</nanos>
+  <sequence>53</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>ch.zhaw.pm2.multichat.protocol.MultichatLogger</class>
+  <method>info</method>
+  <thread>1</thread>
+  <message>Client Application ended</message>
+</record>
+</log>
