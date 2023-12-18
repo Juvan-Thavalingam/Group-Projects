@@ -1,0 +1,2134 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF/vEOy09U+m7k=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 336,
+							"top": 144,
+							"width": 64,
+							"height": 50
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF+e18iQmmWQfI=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Class1"
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAF/vEPkINVBf3c=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAF/vEPkINVCUYo=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAF/vFbfO9VOTv0=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vFbfO9VMm14="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vFbfPNVPetU=",
+									"_parent": {
+										"$ref": "AAAAAAF/vFbfO9VOTv0="
+									},
+									"font": "Arial;13;0",
+									"left": 250,
+									"top": 282,
+									"width": 125,
+									"height": 13,
+									"text": "Start",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 272,
+							"width": 145,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vFbfPNVPetU="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAF/vFcVGdVXgWk=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vFcVGdVVH0s="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vFcVGdVYhHU=",
+									"_parent": {
+										"$ref": "AAAAAAF/vFcVGdVXgWk="
+									},
+									"font": "Arial;13;0",
+									"left": 276.25,
+									"top": 349,
+									"width": 72.5,
+									"height": 26,
+									"text": "Track auswählen",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 336,
+							"width": 145,
+							"height": 52,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vFcVGdVYhHU="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/vFeSd9Vk4q4=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vFeSdtViPcI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vFeSd9VlS0k=",
+									"_parent": {
+										"$ref": "AAAAAAF/vFeSd9Vk4q4="
+									},
+									"font": "Arial;13;0",
+									"left": 250,
+									"top": 426,
+									"width": 125,
+									"height": 13,
+									"text": "Track Initialisierung",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 416,
+							"width": 145,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vFeSd9VlS0k="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/vFlM+NWcc7s=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vFlM+NWaNCM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vFlM+NWdpNg=",
+									"_parent": {
+										"$ref": "AAAAAAF/vFlM+NWcc7s="
+									},
+									"font": "Arial;13;0",
+									"left": 250,
+									"top": 487,
+									"width": 125,
+									"height": 13,
+									"text": "Spieler 1 aktiv setzen",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 477,
+							"width": 145,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vFlM+NWdpNg="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAF/vFsNnNWs9kQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vFsNnNWqhrE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vFsNnNWtpiU=",
+									"_parent": {
+										"$ref": "AAAAAAF/vFsNnNWs9kQ="
+									},
+									"font": "Arial;13;0",
+									"left": 276.25,
+									"top": 563.5,
+									"width": 72.5,
+									"height": 39,
+									"text": "Move Strategie auswählen",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 544,
+							"width": 145,
+							"height": 78,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vFsNnNWtpiU="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/vFungNW55SE=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vFungNW3DbA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vFungNW6yNs=",
+									"_parent": {
+										"$ref": "AAAAAAF/vFungNW55SE="
+									},
+									"font": "Arial;13;0",
+									"left": 250,
+									"top": 666,
+									"width": 125,
+									"height": 26,
+									"text": "Strategie wird zugewiesen",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 656,
+							"width": 145,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vFungNW6yNs="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/vFxDZdXK3mQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vFxDZdXIXbE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vFxDZdXLCeg=",
+									"_parent": {
+										"$ref": "AAAAAAF/vFxDZdXK3mQ="
+									},
+									"font": "Arial;13;0",
+									"left": 250,
+									"top": 746,
+									"width": 125,
+									"height": 26,
+									"text": "Nächsten Spieler aktiv setzen",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 736,
+							"width": 145,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vFxDZdXLCeg="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAF/vF1apNXXmsk=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vF1apNXVzFo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vF1apNXY/Jg=",
+									"_parent": {
+										"$ref": "AAAAAAF/vF1apNXXmsk="
+									},
+									"font": "Arial;13;0",
+									"left": 276.4990234375,
+									"top": 842,
+									"width": 72.998046875,
+									"height": 52,
+									"text": "Aktiver Spieler Strategie ausgewählt?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 816,
+							"width": 145.99609375,
+							"height": 104,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vF1apNXY/Jg="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vF6M1NXoIxs=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vF6M09XmD0k="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vF6M1NXpQ5g=",
+									"_parent": {
+										"$ref": "AAAAAAF/vF6M1NXoIxs="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vF6M09XmD0k="
+									},
+									"font": "Arial;13;0",
+									"left": 462,
+									"top": 716,
+									"width": 26.736328125,
+									"height": 13,
+									"alpha": -1.535097159286854,
+									"distance": 28.0178514522438,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vF6M1NXoIxs="
+									},
+									"edgePosition": 1,
+									"text": "Nein"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vFsNnNWs9kQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vF1apNXXmsk="
+							},
+							"lineStyle": 2,
+							"points": "385:864;448:864;448:584;384:584",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vF6M1NXpQ5g="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vGCg/NYQQIY=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vGCg+9YO4rs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vGCg/NYROXc=",
+									"_parent": {
+										"$ref": "AAAAAAF/vGCg/NYQQIY="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vGCg+9YO4rs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 326,
+									"top": 631,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vGCg/NYQQIY="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vFungNW55SE="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vFsNnNWs9kQ="
+							},
+							"lineStyle": 2,
+							"points": "312:621;312:656",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vGCg/NYROXc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vGC8+dYZfME=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vGC8+dYXTU4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vGC8+dYavDw=",
+									"_parent": {
+										"$ref": "AAAAAAF/vGC8+dYZfME="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vGC8+dYXTU4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 326,
+									"top": 711,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vGC8+dYZfME="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vFxDZdXK3mQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vFungNW55SE="
+							},
+							"lineStyle": 2,
+							"points": "312:701;312:736",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vGC8+dYavDw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vGDdItYilzw=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vGDdItYgpwE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vGDdItYjbHY=",
+									"_parent": {
+										"$ref": "AAAAAAF/vGDdItYilzw="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vGDdItYgpwE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 326,
+									"top": 791,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vGDdItYilzw="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vF1apNXXmsk="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vFxDZdXK3mQ="
+							},
+							"lineStyle": 2,
+							"points": "312:781;312:816",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vGDdItYjbHY="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vGH0r9Y4S90=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vGH0r9Y2sTY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vGH0r9Y55o0=",
+									"_parent": {
+										"$ref": "AAAAAAF/vGH0r9Y4S90="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vGH0r9Y2sTY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 326,
+									"top": 313,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vGH0r9Y4S90="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vFcVGdVXgWk="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vFbfO9VOTv0="
+							},
+							"lineStyle": 2,
+							"points": "312:304;312:336",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vGH0r9Y55o0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vGIM99ZBSrM=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vGIM99Y/8fc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vGIM99ZCZsQ=",
+									"_parent": {
+										"$ref": "AAAAAAF/vGIM99ZBSrM="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vGIM99Y/8fc="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 326,
+									"top": 394,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vGIM99ZBSrM="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vFeSd9Vk4q4="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vFcVGdVXgWk="
+							},
+							"lineStyle": 2,
+							"points": "312:387;312:416",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vGIM99ZCZsQ="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vGIgO9ZKmi8=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vGIgO9ZI9Dc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vGIgO9ZL5ic=",
+									"_parent": {
+										"$ref": "AAAAAAF/vGIgO9ZKmi8="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vGIgO9ZI9Dc="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 326,
+									"top": 455,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vGIgO9ZKmi8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vFlM+NWcc7s="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vFeSd9Vk4q4="
+							},
+							"lineStyle": 2,
+							"points": "312:448;312:477",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vGIgO9ZL5ic="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vGI0xdZT7RQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vGI0xdZRVgo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vGI0xdZU+J8=",
+									"_parent": {
+										"$ref": "AAAAAAF/vGI0xdZT7RQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vGI0xdZRVgo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 326,
+									"top": 519,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vGI0xdZT7RQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vFsNnNWs9kQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vFlM+NWcc7s="
+							},
+							"lineStyle": 2,
+							"points": "312:509;312:544",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vGI0xdZU+J8="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAF/volIIdZw++Y=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/volIIdZuyOE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/volIIdZxVmw=",
+									"_parent": {
+										"$ref": "AAAAAAF/volIIdZw++Y="
+									},
+									"font": "Arial;13;0",
+									"left": 276.25,
+									"top": 1248.25,
+									"width": 72.5,
+									"height": 48.5,
+									"text": "Auto gecrashed?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 1224,
+							"width": 145,
+							"height": 97,
+							"nameLabel": {
+								"$ref": "AAAAAAF/volIIdZxVmw="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAF/vopyFtaAKuA=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vopyFdZ+k9Y="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vopyFtaBMkA=",
+									"_parent": {
+										"$ref": "AAAAAAF/vopyFtaAKuA="
+									},
+									"font": "Arial;13;0",
+									"left": 276.25,
+									"top": 1376.25,
+									"width": 72.5,
+									"height": 48.5,
+									"text": "Nur noch ein Auto am \"leben\"?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 1352,
+							"width": 145,
+							"height": 97,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vopyFtaBMkA="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/votoptaP8+Y=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/votopdaNoto="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/votoptaQKFo=",
+									"_parent": {
+										"$ref": "AAAAAAF/votoptaP8+Y="
+									},
+									"model": {
+										"$ref": "AAAAAAF/votopdaNoto="
+									},
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 1329,
+									"width": 13.72998046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/votoptaP8+Y="
+									},
+									"edgePosition": 1,
+									"text": "Ja"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vopyFtaAKuA="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/volIIdZw++Y="
+							},
+							"lineStyle": 2,
+							"points": "312:1320;312:1352",
+							"nameLabel": {
+								"$ref": "AAAAAAF/votoptaQKFo="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAF/vovuu9aZSc8=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vovuu9aXqqU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vovuu9aa4b4=",
+									"_parent": {
+										"$ref": "AAAAAAF/vovuu9aZSc8="
+									},
+									"font": "Arial;13;0",
+									"left": 250,
+									"top": 1570,
+									"width": 125,
+									"height": 13,
+									"text": "Spielende",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 1560,
+							"width": 145,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vovuu9aa4b4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/voxdTtal/6g=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/voxdTdaj/jk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/voxdTtamZe4=",
+									"_parent": {
+										"$ref": "AAAAAAF/voxdTtal/6g="
+									},
+									"font": "Arial;13;0",
+									"left": 258,
+									"top": 1490,
+									"width": 117,
+									"height": 26,
+									"text": "Letztes Auto hat gewonnen",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 248,
+							"top": 1480,
+							"width": 137,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAF/voxdTtamZe4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vozNPdayKT8=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vozNPdawT7M="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vozNPtazk8k=",
+									"_parent": {
+										"$ref": "AAAAAAF/vozNPdayKT8="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vozNPdawT7M="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 329,
+									"top": 1535,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vozNPdayKT8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vovuu9aZSc8="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/voxdTtal/6g="
+							},
+							"lineStyle": 2,
+							"points": "315:1525;315:1560",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vozNPtazk8k="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vozmGda7LOc=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vozmGNa58Pc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vozmGda8a18=",
+									"_parent": {
+										"$ref": "AAAAAAF/vozmGda7LOc="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vozmGNa58Pc="
+									},
+									"font": "Arial;13;0",
+									"left": 322,
+									"top": 1457,
+									"width": 13.72998046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vozmGda7LOc="
+									},
+									"edgePosition": 1,
+									"text": "Ja"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/voxdTtal/6g="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vopyFtaAKuA="
+							},
+							"lineStyle": 2,
+							"points": "314:1448;314:1480",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vozmGda8a18="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/vo2HY9bYHjQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vo2HY9bWniI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vo2HY9bZaio=",
+									"_parent": {
+										"$ref": "AAAAAAF/vo2HY9bYHjQ="
+									},
+									"font": "Arial;13;0",
+									"left": 546,
+									"top": 1394,
+									"width": 125,
+									"height": 26,
+									"text": "Nächsten Spieler aktiv setzen",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 536,
+							"top": 1384,
+							"width": 145,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vo2HY9bZaio="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vo5H6dbzyYw=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vo5H6dbxzEY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vo5H6db0lFY=",
+									"_parent": {
+										"$ref": "AAAAAAF/vo5H6dbzyYw="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vo5H6dbxzEY="
+									},
+									"font": "Arial;13;0",
+									"left": 447,
+									"top": 1379,
+									"width": 26.736328125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vo5H6dbzyYw="
+									},
+									"edgePosition": 1,
+									"text": "Nein"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vo2HY9bYHjQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vopyFtaAKuA="
+							},
+							"lineStyle": 2,
+							"points": "384:1400;536:1400",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vo5H6db0lFY="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/vpGIl9c1yRM=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpGIl9czGJc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vpGIl9c2Byg=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpGIl9c1yRM="
+									},
+									"font": "Arial;13;0",
+									"left": 250,
+									"top": 962,
+									"width": 125,
+									"height": 26,
+									"text": "Wechsel zur Hauptphase",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 952,
+							"width": 145,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpGIl9c2Byg="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vpIcQNdDj3U=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpIcQNdB6Uk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vpIcQNdEaEY=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpIcQNdDj3U="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vpIcQNdB6Uk="
+									},
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 928,
+									"width": 13.72998046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vpIcQNdDj3U="
+									},
+									"edgePosition": 1,
+									"text": "Ja"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vpGIl9c1yRM="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vF1apNXXmsk="
+							},
+							"lineStyle": 2,
+							"points": "312:919;312:952",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpIcQNdEaEY="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAF/vpJVW9dMCYw=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpJVW9dK/xk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vpJVXNdNvTo=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpJVW9dMCYw="
+									},
+									"font": "Arial;13;0",
+									"left": 262.258544921875,
+									"top": 1053,
+									"width": 92.51708984375,
+									"height": 26,
+									"text": "Beschleunigung auswählen",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 216,
+							"top": 1040,
+							"width": 185.0341796875,
+							"height": 52,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpJVXNdNvTo="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vpNDv9dc3uQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpNDvtdavMo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vpNDv9ddtzo=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpNDv9dc3uQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vpNDvtdavMo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 325,
+									"top": 1011,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vpNDv9dc3uQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vpJVW9dMCYw="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vpGIl9c1yRM="
+							},
+							"lineStyle": 2,
+							"points": "311:997;311:1040",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpNDv9ddtzo="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/vpOVeNdmogQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpOVd9dkrSM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vpOVeNdnjbk=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpOVeNdmogQ="
+									},
+									"font": "Arial;13;0",
+									"left": 250,
+									"top": 1130,
+									"width": 125,
+									"height": 26,
+									"text": "Beschleunigung wird angewendet",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 1120,
+							"width": 145,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpOVeNdnjbk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vpReONd6URw=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpReN9d4AwU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vpReONd7KGs=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpReONd6URw="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vpReN9d4AwU="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 323,
+									"top": 1098,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vpReONd6URw="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vpOVeNdmogQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vpJVW9dMCYw="
+							},
+							"lineStyle": 2,
+							"points": "309:1091;309:1120",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpReONd7KGs="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAF/vpTw19eFjEQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpTw1teDQpM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vpTw19eG1O0=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpTw19eFjEQ="
+									},
+									"font": "Arial;13;0",
+									"left": 572.25,
+									"top": 1248.25,
+									"width": 72.5,
+									"height": 48.5,
+									"text": "Auto im Ziel?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 536,
+							"top": 1224,
+							"width": 145,
+							"height": 97,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpTw19eG1O0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vpYSwdenXac=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpYSwdelEuY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vpYSwteoPac=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpYSwdenXac="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vpYSwdelEuY="
+									},
+									"font": "Arial;13;0",
+									"left": 447,
+									"top": 1249,
+									"width": 26.736328125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vpYSwdenXac="
+									},
+									"edgePosition": 1,
+									"text": "Nein"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vpTw19eFjEQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/volIIdZw++Y="
+							},
+							"lineStyle": 2,
+							"points": "384:1270;536:1270",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpYSwteoPac="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vpbkVte4ETE=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpbkVde2K1A="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vpbkVte5UO0=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpbkVte4ETE="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vpbkVde2K1A="
+									},
+									"font": "Arial;13;0",
+									"left": 614,
+									"top": 1345,
+									"width": 26.736328125,
+									"height": 13,
+									"alpha": 1.6233790482815436,
+									"distance": 19.026297590440446,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vpbkVte4ETE="
+									},
+									"edgePosition": 1,
+									"text": "Nein"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vo2HY9bYHjQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vpTw19eFjEQ="
+							},
+							"lineStyle": 2,
+							"points": "608:1320;608:1384",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpbkVte5UO0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/vpdRR9fFotY=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpdRRtfDeSE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vpdRR9fGUFc=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpdRR9fFotY="
+									},
+									"font": "Arial;13;0",
+									"left": 762,
+									"top": 1258,
+									"width": 125,
+									"height": 26,
+									"text": "Aktives Auto hat gewonnen",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 752,
+							"top": 1248,
+							"width": 145,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpdRR9fGUFc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vpj3/9fWPQ4=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpj3/tfUtXY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vpj3/9fXyCw=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpj3/9fWPQ4="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vpj3/tfUtXY="
+									},
+									"font": "Arial;13;0",
+									"left": 710,
+									"top": 1250,
+									"width": 13.72998046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vpj3/9fWPQ4="
+									},
+									"edgePosition": 1,
+									"text": "Ja"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vpdRR9fFotY="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vpTw19eFjEQ="
+							},
+							"lineStyle": 2,
+							"points": "680:1271;752:1271",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpj3/9fXyCw="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAF/vplFAdfhx3Q=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vplFAdffbMw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vplFAtfiWAw=",
+									"_parent": {
+										"$ref": "AAAAAAF/vplFAdfhx3Q="
+									},
+									"font": "Arial;13;0",
+									"left": 762,
+									"top": 1338,
+									"width": 125,
+									"height": 13,
+									"text": "Spielende",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 752,
+							"top": 1328,
+							"width": 145,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vplFAtfiWAw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vpnnD9fuuFQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpnnD9fsuEI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vpnnD9fvFz4=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpnnD9fuuFQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vpnnD9fsuEI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 838,
+									"top": 1303,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vpnnD9fuuFQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vplFAdfhx3Q="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vpdRR9fFotY="
+							},
+							"lineStyle": 2,
+							"points": "824:1293;824:1328",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpnnD9fvFz4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vppR6tf4EoQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vppR6df2edA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vppR6tf5Bio=",
+									"_parent": {
+										"$ref": "AAAAAAF/vppR6tf4EoQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vppR6df2edA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 326,
+									"top": 1187,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vppR6tf4EoQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/volIIdZw++Y="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vpOVeNdmogQ="
+							},
+							"lineStyle": 2,
+							"points": "312:1165;312:1224",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vppR6tf5Bio="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vpqAz9gBtew=",
+							"_parent": {
+								"$ref": "AAAAAAF/vEPkINVCUYo="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpqAz9f/bvk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vpqAz9gCtd4=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpqAz9gBtew="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vpqAz9f/bvk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 921,
+									"top": 1229,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vpqAz9gBtew="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vpJVW9dMCYw="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vo2HY9bYHjQ="
+							},
+							"lineStyle": 2,
+							"points": "680:1408;936:1408;936:1064;400:1064",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpqAz9gCtd4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAF/vFbfO9VMm14=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Start",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vGH0r9Y2sTY=",
+							"_parent": {
+								"$ref": "AAAAAAF/vFbfO9VMm14="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vFbfO9VMm14="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vFcVGdVVH0s="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAF/vFcVGdVVH0s=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Track auswählen",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vGIM99Y/8fc=",
+							"_parent": {
+								"$ref": "AAAAAAF/vFcVGdVVH0s="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vFcVGdVVH0s="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vFeSdtViPcI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/vFeSdtViPcI=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Track Initialisierung",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vGIgO9ZI9Dc=",
+							"_parent": {
+								"$ref": "AAAAAAF/vFeSdtViPcI="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vFeSdtViPcI="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vFlM+NWaNCM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/vFlM+NWaNCM=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Spieler 1 aktiv setzen",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vGI0xdZRVgo=",
+							"_parent": {
+								"$ref": "AAAAAAF/vFlM+NWaNCM="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vFlM+NWaNCM="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vFsNnNWqhrE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAF/vFsNnNWqhrE=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Move Strategie auswählen",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vGCg+9YO4rs=",
+							"_parent": {
+								"$ref": "AAAAAAF/vFsNnNWqhrE="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vFsNnNWqhrE="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vFungNW3DbA="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/vFungNW3DbA=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Strategie wird zugewiesen",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vGC8+dYXTU4=",
+							"_parent": {
+								"$ref": "AAAAAAF/vFungNW3DbA="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vFungNW3DbA="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vFxDZdXIXbE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/vFxDZdXIXbE=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Nächsten Spieler aktiv setzen",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vGDdItYgpwE=",
+							"_parent": {
+								"$ref": "AAAAAAF/vFxDZdXIXbE="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vFxDZdXIXbE="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vF1apNXVzFo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAF/vF1apNXVzFo=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Aktiver Spieler Strategie ausgewählt?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vF6M09XmD0k=",
+							"_parent": {
+								"$ref": "AAAAAAF/vF1apNXVzFo="
+							},
+							"name": "Nein",
+							"source": {
+								"$ref": "AAAAAAF/vF1apNXVzFo="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vFsNnNWqhrE="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vpIcQNdB6Uk=",
+							"_parent": {
+								"$ref": "AAAAAAF/vF1apNXVzFo="
+							},
+							"name": "Ja",
+							"source": {
+								"$ref": "AAAAAAF/vF1apNXVzFo="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vpGIl9czGJc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAF/volIIdZuyOE=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Auto gecrashed?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/votopdaNoto=",
+							"_parent": {
+								"$ref": "AAAAAAF/volIIdZuyOE="
+							},
+							"name": "Ja",
+							"source": {
+								"$ref": "AAAAAAF/volIIdZuyOE="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vopyFdZ+k9Y="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vpYSwdelEuY=",
+							"_parent": {
+								"$ref": "AAAAAAF/volIIdZuyOE="
+							},
+							"name": "Nein",
+							"source": {
+								"$ref": "AAAAAAF/volIIdZuyOE="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vpTw1teDQpM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAF/vopyFdZ+k9Y=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Nur noch ein Auto am \"leben\"?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vozmGNa58Pc=",
+							"_parent": {
+								"$ref": "AAAAAAF/vopyFdZ+k9Y="
+							},
+							"name": "Ja",
+							"source": {
+								"$ref": "AAAAAAF/vopyFdZ+k9Y="
+							},
+							"target": {
+								"$ref": "AAAAAAF/voxdTdaj/jk="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vo5H6dbxzEY=",
+							"_parent": {
+								"$ref": "AAAAAAF/vopyFdZ+k9Y="
+							},
+							"name": "Nein",
+							"source": {
+								"$ref": "AAAAAAF/vopyFdZ+k9Y="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vo2HY9bWniI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAF/vovuu9aXqqU=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Spielende"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/voxdTdaj/jk=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Letztes Auto hat gewonnen",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vozNPdawT7M=",
+							"_parent": {
+								"$ref": "AAAAAAF/voxdTdaj/jk="
+							},
+							"source": {
+								"$ref": "AAAAAAF/voxdTdaj/jk="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vovuu9aXqqU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/vo2HY9bWniI=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Nächsten Spieler aktiv setzen",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vpqAz9f/bvk=",
+							"_parent": {
+								"$ref": "AAAAAAF/vo2HY9bWniI="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vo2HY9bWniI="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vpJVW9dK/xk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/vpGIl9czGJc=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Wechsel zur Hauptphase",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vpNDvtdavMo=",
+							"_parent": {
+								"$ref": "AAAAAAF/vpGIl9czGJc="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vpGIl9czGJc="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vpJVW9dK/xk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAF/vpJVW9dK/xk=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Beschleunigung auswählen",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vpReN9d4AwU=",
+							"_parent": {
+								"$ref": "AAAAAAF/vpJVW9dK/xk="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vpJVW9dK/xk="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vpOVd9dkrSM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/vpOVd9dkrSM=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Beschleunigung wird angewendet",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vppR6df2edA=",
+							"_parent": {
+								"$ref": "AAAAAAF/vpOVd9dkrSM="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vpOVd9dkrSM="
+							},
+							"target": {
+								"$ref": "AAAAAAF/volIIdZuyOE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAF/vpTw1teDQpM=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Auto im Ziel?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vpbkVde2K1A=",
+							"_parent": {
+								"$ref": "AAAAAAF/vpTw1teDQpM="
+							},
+							"name": "Nein",
+							"source": {
+								"$ref": "AAAAAAF/vpTw1teDQpM="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vo2HY9bWniI="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vpj3/tfUtXY=",
+							"_parent": {
+								"$ref": "AAAAAAF/vpTw1teDQpM="
+							},
+							"name": "Ja",
+							"source": {
+								"$ref": "AAAAAAF/vpTw1teDQpM="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vpdRRtfDeSE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/vpdRRtfDeSE=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Aktives Auto hat gewonnen",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vpnnD9fsuEI=",
+							"_parent": {
+								"$ref": "AAAAAAF/vpdRRtfDeSE="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vpdRRtfDeSE="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vplFAdffbMw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAF/vplFAdffbMw=",
+					"_parent": {
+						"$ref": "AAAAAAF/vEPkINVBf3c="
+					},
+					"name": "Spielende"
+				}
+			]
+		}
+	]
+}
